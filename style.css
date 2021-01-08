@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.inicial
+{
+    font-size: 3em;
+    color: black;
+}
+
+.nav-prod 
+{
+    border-left: 2px solid lightseagreen;
+    border-right: 2px solid lightseagreen;
+    
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    flex-direction: row;
+}
+
+nav > h2
+{
+    padding: 10px;
+}
+
+nav > h2:hover
+{
+    background-color: yellow;
+    color: red;
+}
+
+header
+{
+    color: blue;
+}
+
+.header-container
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p:first-line
+{
+    color: red !important;
+}
+
+a
+{
+    background-color: white;
+}
+
+a:visited
+{
+    background-color: blue;
+    color: white;
+}
+
+footer
+{
+    font-style: italic;
+    color: rgb(34, 33, 33);
+}
+
+img
+{
+    width: 40vh;
+    height: 40vh;
+    float: right;
+}
+
+p{
+    margin: 0;
+}
